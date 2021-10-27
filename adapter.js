@@ -1,5 +1,8 @@
 const ContractAddrs = {
-	'42': '0xd426260baa2e36c14733a2954e1a520836475f15',
+	'3': '0x9afa6af134d7b1b3ef8b7a02c00667beb0bed99a',
+	'4': '0x9afa6af134d7b1b3ef8b7a02c00667beb0bed99a',
+	'5': '0x9afa6af134d7b1b3ef8b7a02c00667beb0bed99a',
+	'42': '0x9afa6af134d7b1b3ef8b7a02c00667beb0bed99a',
 };
 const ContractABI = [
 	{
