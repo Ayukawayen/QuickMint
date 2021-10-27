@@ -49,7 +49,7 @@ async function init() {
 	
 	let network = await provider.getNetwork();
 	if(!ContractAddrs[network.chainId]) {
-		alert('Wrong chain. Use Kovan-Testnet instead.');
+		alert('Unsupported chain ID. Use one of these chains instead: Ropsten(3), Rinkeby(4), Goerli(5), or Kovan(42).');
 	}
 	
 	contract = new ethers.Contract(ContractAddrs[network.chainId], ContractABI, provider.getSigner());
